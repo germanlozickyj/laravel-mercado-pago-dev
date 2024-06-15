@@ -3,11 +3,11 @@
 namespace LaravelMercadoPago\LaravelMercadoPago;
 
 use Illuminate\Support\Facades\Http;
-use LaravelMercadoPago\LaravelMercadoPago\Contracs\ManagesApiResponses;
-use LaravelMercadoPago\LaravelMercadoPago\Exceptions\MercadoPagoApiException;
-use LaravelMercadoPago\LaravelMercadoPago\Exceptions\MercadoPagoParamException;
+use Germanlozickyj\LaravelMercadoPago\Exceptions\MercadoPagoApiException;
+use Germanlozickyj\LaravelMercadoPago\Exceptions\MercadoPagoParamException;
+use Germanlozickyj\LaravelMercadoPago\LaravelMercadoPago;
 
-class PlansMercadoPago implements ManagesApiResponses
+class PlansMercadoPago
 {
     private string $back_url;
 

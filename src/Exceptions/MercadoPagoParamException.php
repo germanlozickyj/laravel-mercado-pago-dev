@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelMercadoPago\LaravelMercadoPago\Exceptions;
+namespace Germanlozickyj\LaravelMercadoPago\Exceptions;
 
 use Exception;
 
