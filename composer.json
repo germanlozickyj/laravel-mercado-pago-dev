@@ -1,0 +1,38 @@
+{
+    "name": "germanlozickyj/laravel-mercado-pago",
+    "description": "Easy way to integrate mercado pago in your app laravel",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "spatie/laravel-data": "dev-main"
+    },
+    "require-dev": {
+        "pestphp/pest": "3.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Germanlozickyj\\LaravelMercadoPago\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "germanlozickyj",
+            "email": "germanlozickyj2003@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": false
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Germanlozickyj\\LaravelMercadoPago\\LaravelMercadoPagoServiceProvider"
+            ]
+        }
+    }
+}
